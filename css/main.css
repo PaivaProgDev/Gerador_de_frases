@@ -1,0 +1,553 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+.backdrop-modal {
+  background-color: rgba(0, 0, 0, 0.8235294118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  transition: 400ms ease-in-out;
+}
+.backdrop-modal.backdrop-modal-disabled {
+  opacity: 0;
+  visibility: hidden;
+}
+.backdrop-modal .conteudo-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  width: 100%;
+  max-width: 35rem;
+  background-color: #1d1e21;
+  color: #fff;
+  font-family: "Outfit";
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 1.3rem;
+  margin: 0.9rem;
+  transition: 400ms ease-in-out;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+.backdrop-modal .conteudo-modal .titulo-modal {
+  text-align: center;
+}
+.backdrop-modal .conteudo-modal.active-modal {
+  transform: translateY(0);
+  opacity: 1;
+}
+.backdrop-modal .conteudo-modal p {
+  line-height: 1.5rem;
+}
+.backdrop-modal .conteudo-modal .link {
+  text-decoration: none;
+  border-bottom: 2px solid #f65c50;
+  color: #f65c50;
+  font-weight: 600;
+  cursor: pointer;
+}
+.backdrop-modal .conteudo-modal .botao-fechar-modal {
+  background-color: #f65c50;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  padding: 0.1rem;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.backdrop-modal .conteudo-modal .botao-fechar-modal:hover {
+  opacity: 0.9;
+}
+
+.backdrop-modal-f-favoritas {
+  background-color: rgba(0, 0, 0, 0.8235294118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  transition: 400ms ease-in-out;
+  background-color: #18122a;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1.5rem;
+  visibility: hidden;
+  color: #fff;
+  font-family: "Outfit";
+  transition: 150ms ease-in-out;
+  top: 100%;
+  padding: 2rem;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+}
+.backdrop-modal-f-favoritas.backdrop-modal-disabled {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+.backdrop-modal-f-favoritas .titulo-modal-f-favoritas {
+  text-align: center;
+  font-size: clamp(1rem, 3vw + 1rem, 8rem);
+}
+.backdrop-modal-f-favoritas .info-f-favoritas {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(0.9rem, 7vw, 1.2rem);
+}
+.backdrop-modal-f-favoritas .caixa-vazia {
+  font-size: clamp(1.2rem, 5vw, 2.5rem);
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+.backdrop-modal-f-favoritas .caixa-vazia.esconder {
+  display: none;
+}
+.backdrop-modal-f-favoritas .carrossel-frases {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.1450980392);
+}
+.backdrop-modal-f-favoritas .carrossel-frases .caixa-de-frases-favoritas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0;
+  transition: 150ms ease-in-out;
+}
+.backdrop-modal-f-favoritas .carrossel-frases .caixa-de-frases-favoritas.delete-animation {
+  transform: translateX(-200%);
+  opacity: 0;
+}
+.backdrop-modal-f-favoritas .carrossel-frases .caixa-de-frases-favoritas .excluir-frase-favorita {
+  background-color: #f65c50;
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.backdrop-modal-f-favoritas .carrossel-frases .caixa-de-frases-favoritas .excluir-frase-favorita:hover {
+  opacity: 0.8;
+}
+.backdrop-modal-f-favoritas .btn-sticky {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.backdrop-modal-f-favoritas .botao-fechar-modal-f {
+  background-color: #f65c50;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.7rem;
+  border-radius: 50px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.backdrop-modal-f-favoritas .botao-fechar-modal-f:hover {
+  opacity: 0.9;
+}
+
+.caixa-de-frases {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 35rem;
+  min-height: 18rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 8px -3px rgba(59, 59, 59, 0.322);
+  margin: 3rem 0 4rem 0;
+  border-radius: 3px;
+  border: 1px solid #e2e1de;
+  color: #3a3838;
+  font-size: 1rem;
+  font-family: "Source Code Pro";
+}
+.caixa-de-frases div {
+  display: flex;
+  flex-direction: column;
+}
+.caixa-de-frases .frase {
+  color: #3a3838;
+  margin: 1rem 0 2rem 0;
+  font-size: 1rem;
+  border: 0;
+  height: 100%;
+}
+.caixa-de-frases .autor {
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.caixa-de-frases-favoritas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 35rem;
+  min-height: 18rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 8px -3px rgba(59, 59, 59, 0.322);
+  margin: 3rem 0 4rem 0;
+  border-radius: 3px;
+  border: 1px solid #e2e1de;
+  color: #3a3838;
+  font-size: 1rem;
+  font-family: "Source Code Pro";
+}
+
+.caixa-accordions {
+  display: flex;
+  width: 100%;
+  max-width: 27rem;
+  gap: 1rem;
+  position: relative;
+}
+.caixa-accordions .btn-gerar-frase {
+  width: 100%;
+  background: radial-gradient(#18122a, rgba(42, 42, 46, 0.9058823529));
+  border: 0;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #fcfeff;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.322);
+  font-family: "Outfit";
+}
+.caixa-accordions .btn-gerar-frase:focus {
+  outline: 2px solid #f65c50;
+}
+.caixa-accordions .mensagem-tema {
+  display: flex;
+  gap: 10px;
+  background-color: #675ef7;
+  color: #fff;
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  border-radius: 7px;
+  position: absolute;
+  top: 55px;
+  width: 100%;
+  max-width: 13rem;
+  visibility: hidden;
+  transition: 250ms ease-in-out;
+  opacity: 0;
+}
+.caixa-accordions .mensagem-tema.message-active {
+  visibility: visible;
+  opacity: 1;
+}
+.caixa-accordions .mensagem-tema .flecha-mensagem {
+  color: #675ef7;
+  position: absolute;
+  top: -13px;
+  font-size: 1.3rem;
+}
+
+.accordion {
+  position: relative;
+  width: 100%;
+}
+.accordion .cabecalho-accordion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f65c50;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.322);
+  border: 0;
+}
+.accordion .cabecalho-accordion .btn-opcao {
+  text-align: start;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+  min-width: 7rem;
+  pointer-events: none;
+  font-family: "Outfit";
+}
+.accordion .cabecalho-accordion .icone-abrir-accordion {
+  color: #fff;
+  pointer-events: none;
+}
+.accordion .corpo-accordion {
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+  z-index: 2;
+  border: solid 1px rgb(211, 211, 211);
+  border-top: 0;
+  border-bottom: 0;
+  box-shadow: 0px 2px 10px -2px rgba(59, 59, 59, 0.322);
+  font-family: "Outfit";
+  color: #3a3838;
+  opacity: 0;
+  transition: 100ms ease-in-out;
+}
+.accordion .corpo-accordion.active-accordion {
+  visibility: visible;
+  opacity: 1;
+}
+.accordion .label {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: solid 1px rgb(211, 211, 211);
+}
+.accordion .label:hover {
+  background-color: #ebf2f8;
+}
+.accordion .label.active {
+  background-color: rgb(62, 65, 77);
+  color: #fff;
+}
+.accordion .label .btn-frase {
+  pointer-events: none;
+  appearance: none;
+}
+.accordion .label .tema-frase {
+  pointer-events: none;
+}
+
+.caixa-tooltips-copiar,
+.caixa-tooltips-favorito {
+  position: relative;
+}
+.caixa-tooltips-copiar .copiar-frase,
+.caixa-tooltips-copiar .favoritar-frase,
+.caixa-tooltips-favorito .copiar-frase,
+.caixa-tooltips-favorito .favoritar-frase {
+  display: flex;
+  border: 0;
+  font-size: 1.5rem;
+  color: #3a3838;
+  cursor: pointer;
+  background-color: #f65c50;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  width: fit-content;
+}
+.caixa-tooltips-copiar .copiar-frase:hover,
+.caixa-tooltips-copiar .favoritar-frase:hover,
+.caixa-tooltips-favorito .copiar-frase:hover,
+.caixa-tooltips-favorito .favoritar-frase:hover {
+  opacity: 0.8;
+}
+.caixa-tooltips-copiar .copiar-frase ion-icon,
+.caixa-tooltips-copiar .favoritar-frase ion-icon,
+.caixa-tooltips-favorito .copiar-frase ion-icon,
+.caixa-tooltips-favorito .favoritar-frase ion-icon {
+  pointer-events: none;
+}
+.caixa-tooltips-copiar .tooltip-favorito,
+.caixa-tooltips-favorito .tooltip-favorito {
+  background-color: #675ef7;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-family: "Outfit";
+  letter-spacing: 0.7px;
+  position: absolute;
+  visibility: hidden;
+  font-size: 0.75rem;
+  font-weight: 400;
+  width: max-content;
+  top: 0;
+  left: 43px;
+}
+.caixa-tooltips-copiar .tooltip-favorito.active-tooltip,
+.caixa-tooltips-favorito .tooltip-favorito.active-tooltip {
+  visibility: visible;
+}
+.caixa-tooltips-copiar .tooltip-copiar,
+.caixa-tooltips-favorito .tooltip-copiar {
+  background-color: #675ef7;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-family: "Outfit";
+  letter-spacing: 0.7px;
+  position: absolute;
+  visibility: hidden;
+  font-size: 0.75rem;
+  font-weight: 400;
+  width: max-content;
+  top: 0;
+  left: 43px;
+}
+.caixa-tooltips-copiar .tooltip-copiar.active-tooltip,
+.caixa-tooltips-favorito .tooltip-copiar.active-tooltip {
+  visibility: visible;
+}
+
+.mensagem {
+  width: fit-content;
+  position: fixed;
+  bottom: 50px;
+  left: -200%;
+  background-color: #f65c50;
+  font-size: 0.8rem;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+  border-bottom: 5px solid #db655c;
+  transition: 200ms ease-in-out;
+  font-family: "Outfit";
+  z-index: 4;
+}
+.mensagem.mostrar-mensagem {
+  left: 10px;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f65c50;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  z-index: 2;
+  font-family: "Outfit";
+}
+
+@media screen and (max-width: 950px) {
+  .tooltip-favorito {
+    display: none !important;
+  }
+  .copiar-frase {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .caixa-accordions {
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 490px) {
+  .titulo {
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .backdrop-modal-f-favoritas {
+    padding: 0.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .caixa-accordions {
+    flex-direction: column;
+  }
+  .caixa-de-frases {
+    margin-top: 1rem !important;
+  }
+  .botao-fechar-modal-f {
+    margin: 1rem 1rem 0 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .page-footer {
+    font-size: 0.7rem;
+  }
+  .mensagem {
+    bottom: 45px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .accordions {
+    flex-direction: column;
+  }
+  .titulo {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 289px) {
+  .mensagem {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 265px) {
+  .autor {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 225px) {
+  .titulo {
+    margin-bottom: 1rem !important;
+    margin-top: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 164px) {
+  .titulo {
+    font-size: 100% !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  list-style: none;
+}
+
+body {
+  background-color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+.container .titulo {
+  width: 100%;
+  font-size: 3rem;
+  color: #3a3838;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 600;
+  margin: 2rem 0 5rem 0;
+}
+
+/*# sourceMappingURL=main.css.map */

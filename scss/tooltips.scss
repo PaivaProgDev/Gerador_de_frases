@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+@mixin tooltip {
+   background-color: $cor-terciaria;
+   color: $cor-neutra;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: .8rem;
+   font-family: $fonte-primaria;
+   letter-spacing: .7px;
+   position: absolute;
+   visibility: hidden;
+   font-size: .75rem;
+   font-weight: 400;
+   width: max-content;
+
+   &.active-tooltip {
+      visibility: visible
+   }
+}
+
+.caixa-tooltips-copiar,
+.caixa-tooltips-favorito {
+   position: relative;
+
+   .copiar-frase,
+   .favoritar-frase {
+      display: flex;
+      border: 0;
+      font-size: 1.5rem;
+      color: $cor-fonte;
+      cursor: pointer;
+      background-color: $cor-primaria;
+      color: $cor-neutra;
+      padding: 5px;
+      border-radius: 3px;
+      width: fit-content;
+
+      &:hover {
+         opacity: .8;
+      }
+
+      ion-icon {
+         pointer-events: none;
+      }
+   }
+
+   .tooltip-favorito {
+      @include tooltip;
+      top: 0;
+      left: 43px;
+   }
+
+   .tooltip-copiar {
+      @include tooltip;
+      top: 0;
+      left: 43px;
+   }
+
+}

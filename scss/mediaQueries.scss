@@ -1,0 +1,90 @@
+@media screen and (max-width: 950px) {
+
+   .tooltip-favorito {
+      display: none !important;
+   }
+
+   .copiar-frase {
+      display: none !important;
+   }
+}
+
+@media screen and (max-width: 570px) {
+   .caixa-accordions {
+      margin-top: 0 !important;
+   }
+}
+
+@media screen and (max-width: 490px) {
+   .titulo {
+      font-size: 2rem !important;
+      margin-top: 1rem !important;
+      margin-bottom: 3rem !important;
+   }
+
+   .backdrop-modal-f-favoritas {
+      padding: .8rem;
+   }
+
+}
+
+@media screen and (max-width: 400px) {
+   .caixa-accordions {
+      flex-direction: column;
+   }
+
+   .caixa-de-frases {
+      margin-top: 1rem !important;
+   }
+
+   .botao-fechar-modal-f {
+      margin: 1rem 1rem 0 0;
+   }
+
+}
+
+@media screen and (max-width: 360px) {
+   .page-footer {
+      font-size: .7rem;
+   }
+
+   .mensagem {
+      bottom: 45px;
+   }
+}
+
+@media screen and (max-width: 335px) {
+   .accordions {
+      flex-direction: column;
+   }
+
+   .titulo {
+      font-size: 1.5rem !important;
+      margin-bottom: 1.5rem !important;
+   }
+}
+
+@media screen and (max-width: 289px) {
+   .mensagem {
+      font-size: .7rem;
+   }
+}
+
+@media screen and (max-width: 265px) {
+   .autor {
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 225px) {
+   .titulo {
+      margin-bottom: 1rem !important;
+      margin-top: .5rem !important;
+   }
+}
+
+@media screen and (max-width: 164px) {
+   .titulo {
+      font-size: 100% !important;
+   }
+}

@@ -1,0 +1,142 @@
+@import './variables';
+
+.caixa-accordions {
+   display: flex;
+   width: 100%;
+   max-width: 27rem;
+   gap: 1rem;
+   position: relative;
+
+   .btn-gerar-frase {
+      width: 100%;
+      background: radial-gradient($cor-secundaria, #2a2a2ee7);
+      border: 0;
+      padding: 10px 10px;
+      border-radius: 10px;
+      color: #fcfeff;
+      cursor: pointer;
+      font-size: 1rem;
+      box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.322);
+      font-family: $fonte-primaria;
+
+      &:focus {
+         outline: 2px solid $cor-primaria ;
+      }
+   }
+
+   .mensagem-tema {
+      display: flex;
+      gap: 10px;
+      background-color: $cor-terciaria;
+      color: $cor-neutra;
+      font-family: $fonte-primaria;
+      font-weight: 400;
+      font-size: .8rem;
+      letter-spacing: .5px;
+      padding: 10px;
+      border-radius: 7px;
+      position: absolute;
+      top: 55px;
+      width: 100%;
+      max-width: 13rem;
+      visibility: hidden;
+      transition: 250ms ease-in-out;
+      opacity: 0;
+
+      &.message-active {
+         visibility: visible;
+         opacity: 1;
+      }
+
+      .flecha-mensagem {
+         color: $cor-terciaria;
+         position: absolute;
+         top: -13px;
+         font-size: 1.3rem;
+      }
+   }
+}
+
+.accordion {
+   position: relative;
+   width: 100%;
+
+   .cabecalho-accordion {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $cor-primaria;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 100%;
+      box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.322);
+      border: 0;
+
+
+      .btn-opcao {
+         text-align: start;
+         background-color: transparent;
+         border: 0;
+         color: $cor-neutra;
+         font-size: 1rem;
+         min-width: 7rem;
+         pointer-events: none;
+         font-family: $fonte-primaria;
+      }
+
+      .icone-abrir-accordion {
+         color: $cor-neutra;
+         pointer-events: none;
+      }
+   }
+
+   .corpo-accordion {
+      position: absolute;
+      width: 100%;
+      visibility: hidden;
+      z-index: 2;
+      border: solid 1px rgb(211, 211, 211);
+      border-top: 0;
+      border-bottom: 0;
+      box-shadow: 0px 2px 10px -2px rgba(59, 59, 59, 0.322);
+      font-family: $fonte-primaria;
+      color: $cor-fonte;
+      opacity: 0;
+      transition: 100ms ease-in-out;
+
+      &.active-accordion {
+         visibility: visible;
+         opacity: 1;
+      }
+   }
+
+   .label {
+      display: flex;
+      align-items: center;
+      gap: .9rem;
+      padding: 10px;
+      background-color: $cor-neutra;
+      cursor: pointer;
+      width: 100%;
+      border-bottom: solid 1px rgb(211, 211, 211);
+
+      &:hover {
+         background-color: #ebf2f8;
+      }
+
+      &.active {
+         background-color: rgb(62, 65, 77);
+         color: $cor-neutra;
+      }
+
+      .btn-frase {
+         pointer-events: none;
+         appearance: none;
+      }
+
+      .tema-frase {
+         pointer-events: none;
+      }
+   }
+}

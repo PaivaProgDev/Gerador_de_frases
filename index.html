@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Style -->
+   <link rel="stylesheet" href="./css/main.css">
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="./favicon/favicon.ico">
+   <title>Gerador de Frases</title>
+</head>
+
+<body>
+   <!-- MODAL -->
+   <article class="backdrop-modal">
+      <div class="conteudo-modal">
+         <h2 class="titulo-modal">Olá, seja bem-vindo(a)</h2>
+         <p>
+            Fique a vontade para explorar todos os temas de frases possíveis,
+            gostou de uma frase? dê dois cliques sobre ela para adicona-lá na lista de favoritos.
+         </p>
+         <p>
+            Todos os créditos serão dados para o site
+            <a class="link" href="https://pensador.com" target="_blank">Pensador</a>,
+            que disponibilizou todas as frases usadas nesse projeto!
+         </p>
+         <ion-icon class="botao-fechar-modal" name="close"></ion-icon>
+      </div>
+   </article>
+   <!-- MODAL FRASES FAVORITAS -->
+   <article class="backdrop-modal-f-favoritas">
+      <div class="btn-sticky">
+         <ion-icon class="botao-fechar-modal-f" name="close"></ion-icon>
+      </div>
+      <h2 class="titulo-modal-f-favoritas">
+         Lista de Favoritos
+      </h2>
+      <p class="info-f-favoritas">
+         Clique duas vezes sobre a mensagem para adiciona-lá aqui!
+      </p>
+      <span class="caixa-vazia">Não há nada aqui...</span>
+      <ul class="carrossel-frases"></ul>
+   </article>
+
+   <div class="container">
+      <h1 class="titulo">Gerador de Frases</h1>
+      <div class="caixa-accordions">
+         <!-- ACCORDION -->
+         <div class="accordion">
+            <button class="cabecalho-accordion" tabindex="1">
+               <span class="btn-opcao">Frases</span>
+               <ion-icon class="icone-abrir-accordion" name="chevron-down-outline"></ion-icon>
+            </button>
+            <ul class="corpo-accordion">
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-prog" name="radio">
+                     <span class="tema-frase">Programação</span>
+                  </label>
+               </li>
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-natal" name="radio">
+                     <span class="tema-frase">Natal</span>
+                  </label>
+               </li>
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-ano-novo" name="radio">
+                     <span class="tema-frase">Ano novo</span>
+                  </label>
+               </li>
+               <li>
+                  <label class=" label">
+                     <input type="radio" class="btn-frase btn-vida" name="radio">
+                     <span class="tema-frase">Vida</span>
+                  </label>
+               </li>
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-sonhos" name="radio">
+                     <span class="tema-frase">Sonhos</span>
+                  </label>
+               </li>
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-conquistas" name="radio">
+                     <span class="tema-frase">Conquistas</span>
+                  </label>
+               </li>
+               <li>
+                  <label class="label">
+                     <input type="radio" class="btn-frase btn-pessoas" name="radio">
+                     <span class="tema-frase">Pessoas</span>
+                  </label>
+               </li>
+            </ul>
+         </div>
+         <!-- FRASE TÓPICO -->
+         <div class="mensagem-tema">
+            <ion-icon class="flecha-mensagem" name="caret-up-outline"></ion-icon>
+            <span>Escolha um tema e aperte novamente o botão.</span>
+         </div>
+         <!-- GERAR FRASE -->
+         <button class="btn-gerar-frase" tabindex="9">Gerar Frase</button>
+         <!-- TOOLTIP FRASE FAVORITA -->
+         <div class="caixa-tooltips-favorito">
+            <button class="favoritar-frase" tabindex="1">
+               <ion-icon name="bookmark"></ion-icon>
+            </button>
+            <div class="tooltip-favorito">
+               <span>Frases salvas</span>
+            </div>
+         </div>
+      </div>
+
+      <!-- CAIXA DE FRASES -->
+      <div class="caixa-de-frases">
+         <div>
+            <!-- TOOLTIP COPIAR FRASE -->
+            <div class="caixa-tooltips-copiar">
+               <button class="copiar-frase" tabindex="2">
+                  <ion-icon name="layers"></ion-icon>
+               </button>
+               <div class="tooltip-copiar">
+                  <span>Copiar frase</span>
+               </div>
+               <!-- FRASE -->
+               <span class="frase"></span>
+            </div>
+            <!-- AUTOR -->
+            <span class="autor"></span>
+         </div>
+      </div>
+
+      <!-- FRASE DE AVISO -->
+      <div class="mensagem mensagem-frase-copiada">
+         <span>Frase copiada com sucesso!</span>
+      </div>
+
+      <div class="mensagem mensagem-frase-salva">
+         <span>Frase salva como sucesso!</span>
+      </div>
+
+      <footer class="page-footer">
+         <p>Desenvolvido por Guilherme Paiva | 2024</p>
+      </footer>
+
+
+      <!-- SCRIPT -->
+      <script type="module" src="./main.js"></script>
+      <!-- ICONES -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@import './variables';
+
+.mensagem {
+   width: fit-content;
+   position: fixed;
+   bottom: 50px;
+   left: -200%;
+   background-color: $cor-primaria;
+   font-size: .8rem;
+   padding: 10px;
+   border-radius: 3px;
+   color: #fff;
+   border-bottom: 5px solid #db655c;
+   transition: 200ms ease-in-out;
+   font-family: $fonte-primaria;
+   z-index: 4;
+
+   &.mostrar-mensagem {
+      left: 10px;
+   }
+}

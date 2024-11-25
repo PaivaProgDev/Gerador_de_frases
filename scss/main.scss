@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+@import './variables';
+@import './modal';
+@import './caixaFrases';
+@import './accordion';
+@import './tooltips';
+@import './mensagens';
+@import './footer';
+@import './mediaQueries';
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   cursor: default;
+   list-style: none;
+}
+
+body {
+   background-color: $cor-neutra;
+   -webkit-tap-highlight-color: transparent;
+}
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   min-height: 100vh;
+   padding: .5rem;
+
+   .titulo {
+      width: 100%;
+      font-size: 3rem;
+      color: $cor-fonte;
+      text-align: center;
+      font-family: $fonte-primaria;
+      font-weight: 600;
+      margin: 2rem 0 5rem 0;
+   }
+}

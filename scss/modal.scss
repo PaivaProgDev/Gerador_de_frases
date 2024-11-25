@@ -1,0 +1,185 @@
+@import './variables.scss';
+
+@mixin modal-backdrop {
+   background-color: #000000d2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   height: 100vh;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 3;
+   transition: 400ms ease-in-out;
+}
+
+@mixin modal {
+   display: flex;
+   flex-direction: column;
+   gap: 2.2rem;
+   width: 100%;
+   max-width: 35rem;
+   background-color: #1d1e21;
+   color: $cor-neutra;
+   font-family: $fonte-primaria;
+   border: 0;
+   border-radius: .5rem;
+   padding: 1.3rem;
+   margin: .9rem;
+   transition: 400ms ease-in-out;
+   transform: translateY(-50px);
+   opacity: 0;
+
+   .titulo-modal {
+      text-align: center;
+   }
+}
+
+// MODAL INICIAL
+.backdrop-modal {
+   @include modal-backdrop;
+
+   &.backdrop-modal-disabled {
+      opacity: 0;
+      visibility: hidden;
+   }
+
+   .conteudo-modal {
+      @include modal;
+
+      &.active-modal {
+         transform: translateY(0);
+         opacity: 1;
+      }
+
+      p {
+         line-height: 1.5rem;
+      }
+
+      .link {
+         text-decoration: none;
+         border-bottom: 2px solid $cor-primaria;
+         color: $cor-primaria;
+         font-weight: 600;
+         cursor: pointer;
+      }
+
+      .botao-fechar-modal {
+         background-color: $cor-primaria;
+         color: $cor-neutra;
+         font-weight: 500;
+         font-size: 1.5rem;
+         border-radius: .3rem;
+         padding: .1rem;
+         cursor: pointer;
+         align-self: flex-end;
+
+         &:hover {
+            opacity: .9;
+         }
+      }
+   }
+}
+
+// MODAL FRASES FAVORITAS
+.backdrop-modal-f-favoritas {
+   @include modal-backdrop;
+   background-color: $cor-secundaria;
+   flex-direction: column;
+   justify-content: start;
+   gap: 1.5rem;
+   visibility: hidden;
+   color: $cor-neutra;
+   font-family: $fonte-primaria;
+   transition: 150ms ease-in-out;
+   top: 100%;
+   padding: 2rem;
+   scrollbar-width: thin;
+   overflow-y: scroll;
+
+   &.backdrop-modal-disabled {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+   }
+
+   .titulo-modal-f-favoritas {
+      text-align: center;
+      font-size: clamp(1rem, 3vw + 1rem, 8rem);
+   }
+
+   .info-f-favoritas {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: clamp(.9rem, 7vw, 1.2rem);
+   }
+
+   .caixa-vazia {
+      font-size: clamp(1.2rem, 5vw, 2.5rem);
+      color: #ffffff4d;
+
+      &.esconder {
+         display: none;
+      }
+   }
+
+   .carrossel-frases {
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+      font-size: 3rem;
+      color: #ffffff25;
+
+      .caixa-de-frases-favoritas {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         width: 100%;
+         max-width: 30rem;
+         margin: 0;
+         transition: 150ms ease-in-out;
+
+         &.delete-animation {
+            transform: translateX(-200%);
+            opacity: 0;
+         }
+
+         .excluir-frase-favorita {
+            background-color: $cor-primaria;
+            color: $cor-neutra;
+            padding: 6px;
+            border-radius: 3px;
+            font-size: 1.3rem;
+            cursor: pointer;
+
+            &:hover {
+               opacity: .8;
+            }
+         }
+      }
+   }
+
+   .btn-sticky {
+      display: flex;
+      justify-content: flex-end;
+      position: sticky;
+      top: 0;
+      width: 100%;
+   }
+
+   .botao-fechar-modal-f {
+      background-color: $cor-primaria;
+      color: $cor-neutra;
+      font-weight: 500;
+      font-size: 1.7rem;
+      border-radius: 50px;
+      padding: .3rem;
+      cursor: pointer;
+
+      &:hover {
+         opacity: .9;
+      }
+   }
+}

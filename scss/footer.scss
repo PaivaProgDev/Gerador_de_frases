@@ -1,0 +1,14 @@
+@import './variables';
+
+.page-footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: $cor-primaria;
+   color: $cor-neutra;
+   padding: 10px;
+   text-align: center;
+   font-size: .9rem;
+   z-index: 2;
+   font-family: $fonte-primaria;
+}

@@ -1,0 +1,1133 @@
+{
+   "programacao": [
+      {
+         "id": 1,
+         "frase" : "Não é a linguagem de programação que define o programador, mas sim sua lógica.",
+         "autor": "- David Ribeiro Guilherme"
+      },
+      {
+         "id": 2,
+         "frase": "Sou só um vírus, querendo escapar, dos programadores da vida.",
+         "autor": "- Wesley D'Amico"
+      },
+      {
+         "id": 3,
+         "frase": "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
+         "autor": "- Orlando Cordeiro"
+      },
+      {
+         "id": 4,
+         "frase": "Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.",
+         "autor": "- Samuel Custódio"
+      },
+      {
+         "id": 5,
+         "frase": "O resultado do programa é relativo o nível de conhecimento do programador.",
+         "autor": "- Rangelthr"
+      },
+      {
+         "id": 6,
+         "frase": "Programadores e artistas são os únicos profissionais que tem como hobby a própria profissão.",
+         "autor": "- Rafael Lain"
+      },
+      {
+         "id": 7,
+         "frase": "Linguagens não morrem mas sim seus programadores.",
+         "autor": "- Thales de Oliveira Gomes"
+      },
+      {
+         "id": 8,
+         "frase": "Algo poderoso que aprendi enquanto programador e que devemos aplicar na realidade é: ERRAR RÁPIDO!",
+         "autor": "- Ayrton Yagami"
+      },
+      {
+         "id": 9,
+         "frase": "⁠No sistema do Divino Programador sou uma nanopartícula.",
+         "autor": "- LiGomes"
+      },
+      {
+         "id": 10,
+         "frase": "Se até as variáveis precisam ser declaradas porque não me declarar pra você?",
+         "autor": "- Hebert Barros"
+      },
+      {
+         "id": 11,
+         "frase": "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.",
+         "autor": "- Thales Valentim"
+      },
+      {
+         "id": 12,
+         "frase": "A questão não é saber os códigos ou linhas de comando, é saber o que fazer com eles.",
+         "autor": "- Sérgio Arena"
+      },
+      {
+         "id": 13,
+         "frase": "Aproveite enquanto vive como programador no planeta, pois a tecnologia avança de uma forma gradativamente nos transformando em um ser burro.",
+         "autor": "- Halyson Barros"
+      },
+      {
+         "id": 14,
+         "frase": "Faça da sua vida mais 'Responsivo'",
+         "autor": "- Luana Monteiro"
+      },
+      {
+         "id": 15,
+         "frase": "Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.",
+         "autor": "- Ken Thompson"
+      },
+      {
+         "id": 16,
+         "frase": "Inspecionar para prevenir defeitos é bom; Inspecionar para encontrar defeitos é desperdício.",
+         "autor": "- Shigeo Shingo"
+      },
+      {
+         "id": 17,
+         "frase": "Medir o progresso da programação por linhas de código é como medir o progresso da construção de aeronaves em termos de peso.",
+         "autor": "- Bill Gates"
+      },
+      {
+         "id": 18,
+         "frase": "Qualquer um pode escrever um código que o computador entenda. Bons programadores escrevem códigos que os humanos entendam.",
+         "autor": "- Martin Fowler"
+      },
+      {
+         "id": 19,
+         "frase": "Bons programadores sabem o que escrever. Os melhores sabem o que reescrever.",
+         "autor": "- Eric Raymond"
+      },
+      {
+         "id": 20,
+         "frase": "Você pode criar qualquer coisa: basta escrever",
+         "autor": "- C. S. Lewis"
+      },
+      {
+         "id": 21,
+         "frase": "Eu não sou um programador, sou um solucionador de problemas que usa código.",
+         "autor": "- Scott Hanselman"
+      },
+      {
+         "id": 22,
+         "frase": "Programação é a arte de descobrir o que você quer fazer e, então, traduzi-lo para uma linguagem que um computador pode entender.",
+         "autor": "- Chris Pine"
+      },
+      {
+         "id": 23,
+         "frase": "Programação é a arte de descobrir o que você quer fazer e, então, traduzi-lo para uma linguagem que um computador pode entender.",
+         "autor": "- Chris Pine"
+      },
+      {
+         "id": 24,
+         "frase": "Todo mundo deveria aprender a programar, porque isso ensina a pensar.",
+         "autor": "- Steve Jobs"
+      },
+      {
+         "id": 25,
+         "frase": "A programação é a melhor alquimia da mente humana. Transforma pensamentos em realidade.",
+         "autor": "- Alan Turing"
+      },
+      {
+         "id": 26,
+         "frase": "Programar é uma forma de arte que permite aos indivíduos expressarem sua criatividade através da criação de software.",
+         "autor": "- Grace Hopper"
+      },
+      {
+         "id": 27,
+         "frase": "A programação é uma jornada de descoberta contínua, onde cada linha de código é uma nova oportunidade de aprendizado.",
+         "autor": "- Linus Torvalds"
+      },
+      {
+         "id": 28,
+         "frase": "Os programadores não são aqueles que escrevem códigos perfeitos, mas sim aqueles que sabem como corrigir os erros.",
+         "autor": "- Barbara Liskov"
+      },
+      {
+         "id": 29,
+         "frase": "Programação é a arte de encontrar soluções elegantes para problemas complexos.",
+         "autor": "- Matt Mullenweg"
+      },
+      {
+         "id": 30,
+         "frase": "A programação é como uma língua universal que conecta pessoas de diferentes culturas e origens.",
+         "autor": "- Ada Lovelace"
+      },
+      {
+         "id": 31,
+         "frase": "A programação é uma ferramenta poderosa que capacita os indivíduos a moldarem o futuro da tecnologia.",
+         "autor": "- Tim Berners-Lee"
+      },
+      {
+         "id": 32,
+         "frase": "Programar é como tocar um instrumento musical, onde cada linha de código é uma nota na sinfonia da tecnologia.",
+         "autor": "- John Carmack"
+      },
+      {
+         "id": 33,
+         "frase": "A programação é uma jornada de exploração intelectual, onde cada linha de código revela novas possibilidades e desafios.",
+         "autor": "- Donald Knuth"
+      },
+      {
+         "id": 34,
+         "frase": "Programação é a arte de criar ordem a partir do caos digital.",
+         "autor": "- Alan Perlis"
+      },
+      {
+         "id": 35,
+         "frase": "Programar é como escrever música; ambas as atividades combinam lógica com criatividade para criar algo único.",
+         "autor": "- Philip Greenspun"
+      },
+      {
+         "id": 36,
+         "frase": "Programação é como uma arte marcial intelectual, onde a disciplina e a prática constante levam à maestria.",
+         "autor": "- Kathy Sierra"
+      },
+      {
+         "id": 37,
+         "frase": "A programação é uma dança entre o homem e a máquina, onde cada movimento cria um novo ritmo na sinfonia digital.",
+         "autor": "- Vint Cerf"
+      },
+      {
+         "id": 38,
+         "frase": "A programação é uma dança entre o homem e a máquina, onde cada movimento cria um novo ritmo na sinfonia digital.",
+         "autor": "- Vint Cerf"
+      },
+      {
+         "id": 39,
+         "frase": "Se depurar é o processo de remoção de bugs do software, então programação deve ser o processo de colocação deles.",
+         "autor": "- Edsger Dijkstra"
+      },
+      {
+         "id": 40,
+         "frase": "Você não crescerá a não ser que tente algo além daquilo que já domina.",
+         "autor": "- Ronald E. Osborn"
+      }
+   ],
+
+   "natal": [
+      {
+         "id": 1,
+         "frase": "A melhor mensagem de Natal é aquela que sai em silêncio de nossos corações e aquece com ternura os corações daqueles que nos acompanham em nossa caminhada pela vida.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 2,
+         "frase": "Natal quer dizer espírito de amor... um tempo quando o amor de Deus e o amor dos seres humanos deveriam prevalecer acima de todo o ódio e amargura... um tempo em que nossos pensamentos, ações e o espírito de nossas vidas manifestam a presença de Deus.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 3,
+         "frase": "O Natal começou no coração de Deus. Só está completo quando alcançar o coração do homem.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 4,
+         "frase": "O Natal começou no coração de Deus. Só está completo quando alcançar o coração do homem.",
+         "autor": "- Charles Dickens"
+      },
+      {
+         "id": 5,
+         "frase": "Melhor do que todos os presentes por baixo da árvore de Natal é a presença de uma família feliz.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 6,
+         "frase": "Sugestões de presentes para o Natal: Para seu inimigo, perdão. Para um oponente, tolerância. Para um amigo, seu coração. Para um cliente, serviço. Para tudo, caridade. Para toda criança, um exemplo bom. Para você, respeito.",
+         "autor": "- Oren Arnold"
+      },
+      {
+         "id": 7,
+         "frase": "Há mais, muito mais, para o Natal do que luz de vela e alegria. É o espírito de doce amizade que brilha todo o ano. É consideração e bondade, é a esperança renascida novamente, para paz, para entendimento e para benevolência dos homens.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 8,
+         "frase": "Que é o Natal? É a ternura do passado, o valor do presente e a esperança do futuro. É o desejo mais sincero de que cada xícara se encha com bênçãos ricas e eternas e de que cada caminho nos leve à paz.",
+         "autor": "- Agnes M. Pharo"
+      },
+      {
+         "id": 9,
+         "frase": "Se não sabes o que presentear a teus seres mais queridos no Natal, presenteie-lhes teu amor.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 10,
+         "frase": "Ainda que se percam outras coisas ao longo dos anos, mantenhamos o Natal como algo brilhante. Regressemos à nossa fé infantil.",
+         "autor": "- Grace Noll Crowell"
+      },
+      {
+         "id": 11,
+         "frase": "Não existe o Natal ideal, só o Natal que você decida criar como reflexo de seus valores, desejos, queridos e tradições.",
+         "autor": "- Bill McKibben"
+      },
+      {
+         "id": 12,
+         "frase": "O Natal, crianças, não é uma data. É um estado de espírito.",
+         "autor": "- Mary Ellen Chase"
+      },
+      {
+         "id": 13,
+         "frase": "Honrarei o Natal em meu coração e tentarei conservá-lo durante todo o ano.",
+         "autor": "- Charles Dickens"
+      },
+      {
+         "id": 14,
+         "frase": "O Natal... não é um acontecimento, senão uma parte de seu lar que levamos sempre em nosso coração.",
+         "autor": "- Freya Stark"
+      },
+      {
+         "id": 15,
+         "frase": "Que os sinos natalícios anunciem as boas-novas e te tragam um Natal abençoado. Boas festas!",
+         "autor": "- Priscilla Rodighiero"
+      },
+      {
+         "id": 16,
+         "frase": "Desejo a você e à sua família um Natal de luz! Abençoado e repleto de alegrias. Boas festas!",
+         "autor": "- Priscilla Rodighiero"
+      },
+      {
+         "id": 17,
+         "frase": "Que este Natal seja repleto de felicidades a você e toda sua família. Boas festas!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 18,
+         "frase": "Que os sinos do Natal sejam os mensageiros de boas festas e que o ano novo seja repleto de realizações. Feliz Natal e um próspero ano-novo!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 19,
+         "frase": "Fé e esperança são as luzes que devem nos iluminar nesta época de reflexão. Boas festas!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 20,
+         "frase": "Que a luz divina ilumine o seu caminho neste e em todos os Natais que virão. Boas festas!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 21,
+         "frase": "Que neste Natal você desfrute cada momento com imensa alegria e que seja formado um elo de paz, amizade e amor.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 22,
+         "frase": "Celebrar o Natal é crer na força do amor, é isto que transforma o homem e o mundo. Feliz Natal!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 23,
+         "frase": "Não basta celebrar o nascimento de Jesus no dia 25 de dezembro, é preciso também tê-lo no coração no dia a dia e seguir os seus ensinamentos.",
+         "autor": "- Edna Frigato"
+      },
+      {
+         "id": 24,
+         "frase": "O Natal não acontece somente uma vez por ano, no dia 25 de dezembro. É Natal a cada momento que abrimos o nosso coração e deixamos Jesus renascer dentro de nós.",
+         "autor": "- Deka Rissi"
+      },
+      {
+         "id": 25,
+         "frase": "O Natal não é apenas 25 de dezembro, mas acontece todos os dias nos corações que têm esperança!",
+         "autor": "- Frater Edinilson Santos, SAC"
+      },
+      {
+         "id": 26,
+         "frase": "Viva Jesus Cristo hoje e sempre, que o dia de hoje 25 de dezembro possa ser todos os dias e todas as noites de cada ano. Bom dia recheado de amor, paz e alegria para todos nós!",
+         "autor": "- Solsorte"
+      },
+      {
+         "id": 27,
+         "frase": "Alegre-se porque JESUS nasceu. 25 de Dezembro.",
+         "autor": "- Edivânia Santos"
+      },
+      {
+         "id": 28,
+         "frase": "Deus não é Papai Noel para que ganhemos presentes e bênçãos apenas no dia 25 de dezembro, mas um Pai que nos abençoa todos os dias por meio do Seu Filho, Jesus Cristo.",
+         "autor": "- Helgir Girodo"
+      },
+      {
+         "id": 29,
+         "frase": "Ter um 25 de Dezembro no coração, é ter um Natal todo o ano.",
+         "autor": "- Jorge A Caldeira Júnior"
+      },
+      {
+         "id": 30,
+         "frase": "Tem presépio o ano inteiro, não vamos lembrar apenas do dia 25 de dezembro!",
+         "autor": "- Thiago Pontes"
+      }
+   ],
+
+   "anoNovo": [
+      {
+         "id": 1,
+         "frase": "Desejo de um feliz ano novo todos nós temos, mas fazer o ano novo realmente feliz depende da atitude de cada um de nós.",
+         "autor": "- João Luis Mastrângelo"
+      },
+      {
+         "id": 2,
+         "frase": "Nós abriremos o livro. Suas páginas estão em branco. Nós vamos pôr palavras nele. O livro chama-se Oportunidade e seu primeiro capítulo é o Dia de ano novo.",
+         "autor": "- Edith Lovejoy Pierce"
+      },
+      {
+         "id": 3,
+         "frase": "O ano não será novo se você plantar as mesmas árvores. Mude! Plante novas árvores para que novos frutos venham.",
+         "autor": "- Pr. Anderson Serra Rocha"
+      },
+      {
+         "id": 4,
+         "frase": "O fim de ano representa um ciclo que fecha. Se foi bom ou ruim, não sei. Uma coisa é certa: suas atitudes influenciaram os resultados.",
+         "autor": "- Luís Alves"
+      },
+      {
+         "id": 5,
+         "frase": "Bendito é aquele que inventou os dias, os meses e os anos, pois nos fazem lembrar que a vida não é uma linha reta com início e fim, mas um eterno recomeço.",
+         "autor": "- Johnny Franks"
+      },
+      {
+         "id": 6,
+         "frase": "Você tem um livro de 365 folhas para escrever sua história, surpreenda cada folha e verás que, no final do livro, terás muita história para contar.",
+         "autor": "- Patricia Angel"
+      },
+      {
+         "id": 7,
+         "frase": "Para ganhar um ano-novo que mereça este nome, você, meu caro, tem de merecê-lo, tem de fazê-lo de novo, eu sei que não é fácil, mas tente, experimente, consciente. É dentro de você que o Ano-Novo cochila e espera desde sempre.",
+         "autor": "- Carlos Drummond de Andrade"
+      },
+      {
+         "id": 8,
+         "frase": "Que a alegria do Natal invada sua casa e faça morada por todos os dias do novo ano. Feliz Natal e Feliz Ano-Novo!",
+         "autor": "- Priscilla Rodighiero"
+      },
+      {
+         "id": 9,
+         "frase": "O objetivo de um ano novo não é que nós deveríamos ter um ano novo. É que nós deveríamos ter uma alma nova.",
+         "autor": "- G. K. Chesterton"
+      },
+      {
+         "id": 10,
+         "frase": "Ano novo, vida velha. A vida é mais do que calendários, fusos ou órbita gravitacional.",
+         "autor": "- Carlos Heitor Cony"
+      },
+      {
+         "id": 11,
+         "frase": "Na noite da virada existe a oportunidade de recomeçar, mesmo que seja apenas um novo ano. Na manhã do dia seguinte, o Sol surgirá e com ele a esperança de que por mais escura que seja a noite um dia ela acaba para dar lugar à luz.",
+         "autor": "- Luís Alves"
+      },
+      {
+         "id": 12,
+         "frase": "O ano novo chegou e com ele as novas promessas. Todo início de ano é assim. Planejamos, projetamos, arquitetamos, desejamos para o início do próximo ano praticamente as mesmas coisas. Esse ano pedirei coisas diferentes... pedirei sabedoria, serenidade e estratégia.",
+         "autor": "- Milena Leão"
+      },
+      {
+         "id": 13,
+         "frase": "Se chovesse felicidade, eu lhe desejaria uma tempestade. Feliz ano-novo!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 14,
+         "frase": "Existem pessoas para as quais a gente diz bom dia, boa tarde, como vai, feliz natal, feliz isso, feliz aquilo, mas por obrigatoriedade. Porém, há pessoas para as quais a gente diz tudo isso e muito mais, pelo seu valor como ser humano.",
+         "autor": "- MarGeLellisSil"
+      },
+      {
+         "id": 15,
+         "frase": "Que nesse novo ano que se inicia, seja o ano da mudança, o ano de reparar erros do passado, o ano de recuperar o que estava perdido e começar tudo de novo de uma forma diferente. Porque a vida é feita de erros e recomeços. O segredo é não cometê-lo duas vezes. Feliz Ano Novo!",
+         "autor": "- Wendell Gomes Teixeira"
+      },
+      {
+         "id": 16,
+         "frase": "No ano novo, tudo pode se transformar... os desejos são as mais belas obras desse evento anual.",
+         "autor": "- Erasmo Shallkytton"
+      },
+      {
+         "id": 17,
+         "frase": "Desejo para o novo ano: fartas colheitas chegando em seus campos e belas flores surgindo em seus jardins, perfumando suas vidas no exalar das fragrâncias que não se compra em mercados: Paz, Amor e Prosperidade.",
+         "autor": "- Rosemira Guerreiro"
+      },
+      {
+         "id": 18,
+         "frase": "Entendamos como sinônimo de ano novo, oportunidade nova, e, se ela for levada a sério, mudaremos nossos votos de prosperidades no começo do próximo ano, para festejarmos esta prosperidade já concretizada.",
+         "autor": "- Ivan Teorilang"
+      },
+      {
+         "id": 19,
+         "frase": "Olha o centro do céu à meia-noite na virada do Ano-Novo, crê e verás que todos os sonhos e desejos serão somente os teus atos de fé.",
+         "autor": "- Erasmo Shallkytton"
+      },
+      {
+         "id": 20,
+         "frase": "O melhor presente para o Natal são as boas recordações vividas.",
+         "autor": "- Júnior Miranda"
+      },
+      {
+         "id": 21,
+         "frase": "Um novo começo, um ano se despedindo. Mas com um coração maravilhoso, cheio de esperanças e planos, de alegrias, de fé e sempre com muito amor e paz. Feliz Ano Novo!",
+         "autor": "- Jared Hassan"
+      },
+      {
+         "id": 22,
+         "frase": "O fim de ano representa um ciclo que fecha. Se foi bom ou ruim, não sei. Uma coisa é certa: suas atitudes influenciaram os resultados.",
+         "autor": "- Luís Alves"
+      },
+      {
+         "id": 23,
+         "frase": "“Ano novo! Um ciclo curto pra quem vive muito, mas longo pra quem apenas o observa.”",
+         "autor": "- Ana Paula Ribeiro"
+      },
+      {
+         "id": 24,
+         "frase": "Que a mensagem de fé e esperança do Natal renove nossas forças para continuar lutando no ano-novo que se aproxima!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 25,
+         "frase": "Queria incluir na sua bagagem de esperanças para o ano-novo estes nossos votos de boas festas e de feliz Ano-Novo! Desconhecido",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 26,
+         "frase": "Bendito é aquele que inventou os dias, os meses e os anos, pois nos fazem lembrar que a vida não é uma linha reta com início e fim, mas um eterno recomeço.",
+         "autor": "- Johnny Franks"
+      },
+      {
+         "id": 27,
+         "frase": "Que os sorrisos sejam intensos e o coração pulse mais forte. Que a alegria possa fluir livre de barreiras. Que nenhum de nós se esqueça a força que a fé possui e que não nos falte gratidão, amor e esperança. É o que desejo para mim, para você e para todos nós.",
+         "autor": "- Jared Hassan"
+      },
+      {
+         "id": 28,
+         "frase": "Bem-aventurados os que mudam suas atitudes sem esperar um ano novo.",
+         "autor": "- Desconhecido"
+      },
+      {
+         "id": 29,
+         "frase": "Aproveite este fim de ano para expulsar os fantasmas da sua vida e comece um Novo Ano com as pessoas reais, as que fazem parte do seu dia a dia.",
+         "autor": "- Gil Nunes"
+      },
+      {
+         "id": 30,
+         "frase": "To escrevendo o que preciso pra começar o novo ano em paz. Você é a primeira na lista de coisas que quero. E na de que não quero, também.",
+         "autor": "- Bruno Fontes"
+      }
+   ],
+
+   "vida": [
+      {
+         "id": 1,
+         "frase": "⁠Considerando que é possível tu deixares esta vida a qualquer momento, administra cada ato, palavra e pensamento em consonância com isso.",
+         "autor": "- Marco Aurélio "
+      },
+      {
+         "id": 2,
+         "frase": "Conselhos ruins podem acabar com um dia, um ano ou uma vida inteira.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 3,
+         "frase": "Não se entregue tanto para alguém a ponto de sentir falta de você mesmo.",
+         "autor": "- Jéssica Pellegrini"
+      },
+      {
+         "id": 4,
+         "frase": "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante",
+         "autor": "- Augusto Branco"
+      },
+      {
+         "id": 5,
+         "frase": "A perseverança é importante, mas saber a hora certa de parar também é sabedoria.",
+         "autor": "- Pastor Charles Costa"
+      },
+      {
+         "id": 6,
+         "frase": "Amai, porque nada melhor para a saúde que um amor correspondido.",
+         "autor": "- Vinicius de Moraes"
+      },
+      {
+         "id": 7,
+         "frase": "Amar os outros é a única salvação individual que conheço: ninguém estará perdido se der amor e às vezes receber amor em troca.",
+         "autor": "- Clarice Lispector"
+      },
+      {
+         "id": 8,
+         "frase": "Estude incessantemente. O conhecimento é a única coisa que ninguém pode lhe tirar.",
+         "autor": "- Uindson Sousa"
+      },
+      {
+         "id": 9,
+         "frase": "Gaste um tempo mudando a vida de alguém que você economizará um tempo enorme na mudança da sua vida!",
+         "autor": "- Caio Carneiro"
+      },
+      {
+         "id": 10,
+         "frase": "Não se turbe, o tempo cura tudo, trazendo consigo novas reflexões para construção de novos horizontes em nossas vidas.",
+         "autor": "- Admilson Nascimento Santana"
+      },
+      {
+         "id": 11,
+         "frase": "Não deixe as coisas criarem raízes para retirá-las de sua vida. Pois a dificuldade é maior depois para removê-la.",
+         "autor": "- Leandro Flores"
+      },
+      {
+         "id": 12,
+         "frase": "Um dia feliz tem mais poder que a tristeza de uma vida inteira. Nele moram as reviravoltas.",
+         "autor": "- Carla Madeira"
+      },
+      {
+         "id": 13,
+         "frase": "Quem não sabe ouvir não escuta os conselhos que a vida nos dá.",
+         "autor": "- Paulo Coelho"
+      },
+      {
+         "id": 14,
+         "frase": "Quer um conselho? Vou te dar: Você precisa encontrar uma saída, uma nova direção pra sua vida! Viva sua vida e esqueça a minha, porque dela cuido eu!",
+         "autor": "- Jeanrosana"
+      },
+      {
+         "id": 15,
+         "frase": "Talvez o mais difícil de um relacionamento seja saber ser dois individualmente.",
+         "autor": "- Rê Thais"
+      },
+      {
+         "id": 16,
+         "frase": "Quase não existiriam problemas se escutar conselhos fosse tão fácil quanto dá-los.",
+         "autor": "- Moises Bertges"
+      },
+      {
+         "id": 17,
+         "frase": "Dê conselhos que não siga e, em troca receba conselhos que o outro não siga também.",
+         "autor": "- Rubens Rezende"
+      },
+      {
+         "id": 18,
+         "frase": "Marujo esperto é aquele que abandona o barco antes de afundar.",
+         "autor": "- Leandro Hungria Dias Pinto"
+      },
+      {
+         "id": 19,
+         "frase": "Que eu viva sempre momentos de sublime amor e transborde réplicas deste sentimento ao meu redor.",
+         "autor": "- Nara Nubia Alencar Queiroz"
+      },
+      {
+         "id": 20,
+         "frase": "Desisti dessa parada de felizes para sempre, tô investindo agora no de boas para sempre!",
+         "autor": "- Mi Vlz"
+      },
+      {
+         "id": 21,
+         "frase": "Quando sentir que já não faz mais falta, retire-se... Não faz o menor sentido tentar estar onde não se importam com sua presença!",
+         "autor": "- Mi Vlz"
+      },
+      {
+         "id": 22,
+         "frase": "É sobretudo na solidão que se sente a vantagem de viver com alguém que saiba pensar.",
+         "autor": "- Jean-Jacques Rousseau"
+      },
+      {
+         "id": 23,
+         "frase": "Para fazer uma obra de arte não basta ter talento, não basta ter força, é preciso também viver um grande amor.",
+         "autor": "- Wolfgang Amadeus Mozart"
+      },
+      {
+         "id": 24,
+         "frase": "Aprende a viver como deves, e saberás morrer bem.",
+         "autor": "- Confúcio"
+      },
+      {
+         "id": 25,
+         "frase": "É preciso esquecer para viver; a vida é esquecimento; cumpre abrir espaço para o que está por vir.",
+         "autor": "- Miguel Unamuno"
+      },
+      {
+         "id": 26,
+         "frase": "Para se ter vida longa é preciso viver devagar.",
+         "autor": "- Cícero"
+      },
+      {
+         "id": 27,
+         "frase": "A vida é para quem topa qualquer parada. Não para quem para em qualquer topada.",
+         "autor": "- Bob Marley"
+      },
+      {
+         "id": 28,
+         "frase": "Não quero ter a terrível limitação de quem vive apenas do que é passível de fazer sentido. Eu não: quero é uma verdade inventada.",
+         "autor": "- Clarice Lispector"
+      },
+      {
+         "id": 29,
+         "frase": "A cada dia que vivo, mais me convenço de que o desperdício da vida está no amor que não damos, nas forças que não usamos, na prudência egoísta que nada arrisca e que, esquivando-nos do sofrimento, perdemos também a felicidade.",
+         "autor": "- Mary Cholmondeley "
+      },
+      {
+         "id": 30,
+         "frase": "Não tenho tempo pra mais nada, ser feliz me consome muito.",
+         "autor": "- Adélia Prado"
+      },
+      {
+         "id": 31,
+         "frase": "A única verdade é que vivo. Sinceramente, eu vivo. Quem sou? Bem, isso já é demais.",
+         "autor": "- Clarice Lispector"
+      }
+   ],
+
+   "sonhos": [
+      {
+         "id": 1,
+         "frase": "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
+         "autor": "- Roberto Shinyashiki"
+      },
+      {
+         "id": 2,
+         "frase": "Seja qual for o seu sonho, comece. Ousadia tem genialidade, poder e magia.",
+         "autor": "- John Aster"
+      },
+      {
+         "id": 3,
+         "frase": "Sonhar é acordar-se para dentro.",
+         "autor": "- Mario Quintana"
+      },
+      {
+         "id": 4,
+         "frase": "Quando uma criatura humana desperta para um grande sonho e sobre ele lança toda a força de sua alma, todo o universo conspira a seu favor.",
+         "autor": "- Johann Goethe"
+      },
+      {
+         "id": 5,
+         "frase": "Não há nada como o sonho para criar o futuro. Utopia hoje, carne e osso amanhã.",
+         "autor": "- Victor Hugo"
+      },
+      {
+         "id": 6,
+         "frase": "Se você tem um sonho, lute por ele, mesmo que todos te chamem de louco, e tentem te impedir de realizá-lo. Afinal, o sonho é teu, e o único que deve acreditar nele é você.",
+         "autor": "- P.C Brunório"
+      },
+      {
+         "id": 7,
+         "frase": "Se podemos sonhar, também podemos tornar nossos sonhos realidade.",
+         "autor": "- Tom Fitzgerald"
+      },
+      {
+         "id": 8,
+         "frase": "Nós somos do tecido de que são feitos os sonhos.",
+         "autor": "- William Shakespeare"
+      },
+      {
+         "id": 9,
+         "frase": "Sonhos determinam o que você quer. Ação determina o que você conquista.",
+         "autor": "- Aldo Novak"
+      },
+      {
+         "id": 10,
+         "frase": "Se sonhar um pouco é perigoso, a solução não é sonhar menos é sonhar mais.",
+         "autor": "- Marcel Proust"
+      },
+      {
+         "id": 11,
+         "frase": "Não se preocupe com a distância entre seus sonhos e a realidade. Se você pode sonhá-los, você pode realizá-los.",
+         "autor": "- Belva Davis"
+      },
+      {
+         "id": 12,
+         "frase": "A nossa vida em grande parte compõe-se de sonhos. É preciso ligá-los à ação.",
+         "autor": "- Anaïs Nin"
+      },
+      {
+         "id": 13,
+         "frase": "O que é a vida sem um sonho?",
+         "autor": "- Edmond Rostand"
+      },
+      {
+         "id": 14,
+         "frase": "Gosto daquele que sonha o impossível.",
+         "autor": "- Johann Goethe"
+      },
+      {
+         "id": 15,
+         "frase": "Se um sonho cair e se quebrar em mil partes, não tenha medo de pegar uma delas e começar novamente.",
+         "autor": "- Flavia Weedn"
+      },
+      {
+         "id": 16,
+         "frase": "Felizes os que sonham, ainda que não possam realizar os voos.",
+         "autor": "- Afonso Duarte de Barros"
+      },
+      {
+         "id": 17,
+         "frase": "Todos os homens que realizaram grandes coisas eram grandes sonhadores.",
+         "autor": "- Orison Swett Marden"
+      },
+      {
+         "id": 18,
+         "frase": "O melhor jeito de partilhar nossos sonhos é vivendo cada um deles.",
+         "autor": "- Tony Robbins"
+      },
+      {
+         "id": 19,
+         "frase": "A sabedoria suprema é ter sonhos bastante grandes para não se perderem de vista enquanto os perseguimos.",
+         "autor": "- William Faulkner"
+      },
+      {
+         "id": 20,
+         "frase": "Às vezes é importante parar de sonhar e acordar.",
+         "autor": "- Larry Page"
+      },
+      {
+         "id": 21,
+         "frase": "A possibilidade de realizarmos um sonho é o que torna a vida interessante.",
+         "autor": "- Paulo Coelho"
+      },
+      {
+         "id": 22,
+         "frase": "Nunca se afaste de seus sonhos, pois se eles se forem, você continuará vivendo, mas terá deixado de existir.",
+         "autor": "- Mark Twain"
+      },
+      {
+         "id": 23,
+         "frase": "O sonho é a satisfação de que o desejo se realize.",
+         "autor": "- Sigmund Freud"
+      },
+      {
+         "id": 24,
+         "frase": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 25,
+         "frase": "Alguns homens veem as coisas como são, e dizem 'Por quê?' Eu sonho com as coisas que nunca foram e digo 'Por que não?'",
+         "autor": "- George Bernard Shaw"
+      },
+      {
+         "id": 26,
+         "frase": "Mais facilmente se julgaria um homem segundo os seus sonhos do que segundo os seus pensamentos.",
+         "autor": "- Victor Hugo"
+      },
+      {
+         "id": 27,
+         "frase": "Abandonar a vida por um sonho é estimá-la exatamente por quanto ela vale.",
+         "autor": "- Michel de Montaigne"
+      },
+      {
+         "id": 28,
+         "frase": "Um sonhador é aquele que só ao luar descobre o seu caminho e que, como punição, apercebe a aurora antes dos outros.",
+         "autor": "- Oscar Wilde"
+      },
+      {
+         "id": 29,
+         "frase": "Fica estabelecida a possibilidade de sonhar coisas impossíveis e de caminhar livremente em direção aos sonhos.",
+         "autor": "- Luciano Luppi"
+      },
+      {
+         "id": 30,
+         "frase": "Quando estamos motivados por metas que têm significados profundos, por sonhos que precisam ser realizados, por puro amor que precisa se expressar, então nós vivemos verdadeiramente a vida.",
+         "autor": "- Greg Anderson"
+      },
+      {
+         "id": 31,
+         "frase": "Daqui a vinte anos você estará mais arrependido pelas coisas que não fez do que pelas que fez. Então solte suas amarras. Afaste-se do porto seguro. Agarre o vento em suas velas. Explore. Sonhe. Descubra.",
+         "autor": "- H. Jackson Brown Jr"
+      }
+   ],
+
+   "conquistas" : [
+      {
+         "id": 1,
+         "frase": "As conquistas são fáceis de fazer, porque as fazemos com todas as nossas forças; são difíceis de conservar, porque as defendemos só com uma parte das nossas forças.",
+         "autor": "- Barão de Montesquieu"
+      },
+      {
+         "id": 2,
+         "frase": "As verdadeiras conquistas, as únicas de que nunca nos arrependemos, são aquelas que fazemos contra a ignorância.",
+         "autor": "- Napoleão Bonaparte"
+      },
+      {
+         "id": 3,
+         "frase": "Todos podem ver as táticas de minhas conquistas, mas ninguém consegue discernir a estratégia que gerou as vitórias.",
+         "autor": "- Sun Tzu"
+      },
+      {
+         "id": 4,
+         "frase": "Conquistas sem riscos são sonhos sem méritos. Ninguém é digno dos sonhos de não usar as derrotas para cultivá-los.",
+         "autor": "- Augusto Cury"
+      },
+      {
+         "id": 5,
+         "frase": "Para realizar grandes conquistas, devemos não apenas agir, mas também sonhar; não apenas planejar, mas também acreditar.",
+         "autor": "- Anatole France"
+      },
+      {
+         "id": 6,
+         "frase": "As conquistas dependem 50% de inspiração, criatividade e sonhos, e 50% de disciplina, trabalho árduo e determinação. São duas pernas que devem caminhar juntas.",
+         "autor": "- Augusto Cury"
+      },
+      {
+         "id": 7,
+         "frase": "Em todas as vitórias, em todas as conquistas, o reconhecimento e o abraço mais gostoso é sempre o da pessoa amada.",
+         "autor": "- Augusto Branco"
+      },
+      {
+         "id": 8,
+         "frase": "As maiores conquistas foram conquistadas nas que se diziam impossíveis.",
+         "autor": "- Charles Chaplin"
+      },
+      {
+         "id": 9,
+         "frase": "Na lógica da vida, dividir é aumentar. Dividir as conquistas multiplica a felicidade. Siga sempre a lógica da vida.",
+         "autor": "- Augusto Cury"
+      },
+      {
+         "id": 10,
+         "frase": "Os aventureiros realizam suas conquistas e as demais pessoas os aplaudem. Saia sempre do lugar-comum.",
+         "autor": "- Augusto Cury"
+      },
+      {
+         "id": 11,
+         "frase": "As conquistas humanas compõem-se de 1% de inspiração e 99% de transpiração.",
+         "autor": "- Thomas Edison"
+      },
+      {
+         "id": 12,
+         "frase": "Os aventureiros realizam suas conquistas e as demais pessoas os aplaudem.",
+         "autor": "- Augusto Cury"
+      },
+      {
+         "id": 13,
+         "frase": "O tempo de saboreares tuas conquistas se foi, está no passado. Não queira viver de realizações e glórias passadas. Viver um novo desafio e conquistar uma nova vitória a cada dia é o que dá graça à vida!",
+         "autor": "- Augusto Branco"
+      },
+      {
+         "id": 14,
+         "frase": "As grandes conquistas da humanidade foram obtidas conversando, e as grandes falhas pela falta de diálogo.",
+         "autor": "- Stephen Hawking"
+      },
+      {
+         "id": 15,
+         "frase": "Regra número 18: Sempre fique feliz pelas conquistas do seu melhor amigo.",
+         "autor": "- A Barraca do Beijo"
+      },
+      {
+         "id": 16,
+         "frase": "As dificuldades que enfrentamos na vida são para nos fortalecer pra grandes conquistas futuras, não importa as vezes que andou perdendo na vida, se preocupe com quantas vezes mais você é capaz de cair e levantar.",
+         "autor": "- Preg.Thiago Gonçalves"
+      },
+      {
+         "id": 17,
+         "frase": "Não há conquistas fáceis. São as estradas sinuosas que levam ao caminho certo. O profissional, em qualquer ofício, alcançará o triunfo a partir de um espírito tenaz, forte, obstinado",
+         "autor": "- Afonso Opazo"
+      },
+      {
+         "id": 18,
+         "frase": "Sempre que precisar de um estímulo, olhe para trás e veja todas as suas conquistas.",
+         "autor": "- Rosemary Araújo"
+      },
+      {
+         "id": 19,
+         "frase": "Busque suas conquistas diárias, a vida não é amanhã e nem foi ontem, o hoje é real. Faça ! Mas nunca deixe de sonhar...",
+         "autor": "- Gustavo Chaparro"
+      },
+      {
+         "id": 20,
+         "frase": "As grandes conquistas não são feitas por aqueles que se rendem às tendências, aos modismos passageiros e a opinião popular.",
+         "autor": "- Jack Kerouac"
+      },
+      {
+         "id": 21,
+         "frase": "Que os vossos esforços desafiem as impossibilidades, lembrai-vos de que as grandes coisas do homem foram conquistadas do que parecia impossível.",
+         "autor": "- Charles Chaplin"
+      },
+      {
+         "id": 22,
+         "frase": "Sou um pouco de todos que conheci, um pouco dos lugares que fui, um pouco das saudades que deixei e sou muito das coisas que gostei.",
+         "autor": "- Antoine de Saint-Exupéry"
+      },
+      {
+         "id": 23,
+         "frase": "Esteja preparado para tudo.As alegrias,tristezas,conquistas,decepções, são estados.O que mais importa é ser feliz e viver um dia após o outro!",
+         "autor": "- Samuel Ranner"
+      },
+      {
+         "id": 24,
+         "frase": "De todas as minhas conquistas a maior delas são os meus amigos.",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 25,
+         "frase": "Acumulas, conquistas, ganhas e lutas para fugir de ti, para vencer tua aflição de que, no fundo, não existe outra coisa senão tu mesmo.",
+         "autor": "- Emil Cioran"
+      },
+      {
+         "id": 26,
+         "frase": "A vida não é sobre metas e conquistas, é sobre quem você se torna durante a caminhada.",
+         "autor": "- Phablo Ricardo"
+      },
+      {
+         "id": 27,
+         "frase": "Estar a 100% a todo tempo é como uma miragem no deserto da frustração. Aprecie suas conquistas e descanse sua mente. Jamais será em vão.",
+         "autor": "- 1 Minuto na Palma da Mão"
+      },
+      {
+         "id": 28,
+         "frase": "Uma vida extraordinária é aquela construída com as superações e conquistas que fizemos dia após dia com os recursos que temos e os propósitos pelos quais vivemos.",
+         "autor": "- Vanessa Milis"
+      },
+      {
+         "id": 29,
+         "frase": "Quer ser feliz? Não conte a ninguém, porque ninguém precisa saber da tua vida, das tuas conquistas, dos caminhos que pretendes seguir, dos tombos ou fracassos. Tu não deves explicações a ninguém.",
+         "autor": "- Vinny Moraes"
+      },
+      {
+         "id": 30,
+         "frase": "O conformismo e o comodismo matam nossos sonhos e matando nossos sonhos, matamos nossas conquistas.",
+         "autor": "- Van Marchetti"
+      }
+   ],
+
+   "pessoas": [
+      {
+         "id": 1,
+         "frase": "Não importa o que as outras pessoas falem de você, o importante é que você continue sendo a pessoa que sempre foi. Se mudar mude para melhor.",
+         "autor": "Theodore Roosevelt"
+      },
+      {
+         "id": 2,
+         "frase": "Não importa o que as outras pessoas falem de você, o importante é que você continue sendo a pessoa que sempre foi, e se mudar mude para melhor. Não fique na cama.. a menos que você possa fazer dinheiro deitado.",
+         "autor": "- George Burns"
+      },
+      {
+         "id": 3,
+         "frase": "A maioria das pessoas comunga da ideia do ”falem mal, mas falem de mim”. Sempre achei meio suspeita essa necessidade de ser notado a qualquer custo, de preferir ser esculhambado a ser ignorado.",
+         "autor": "- Martha Medeiros"
+      },
+      {
+         "id": 4,
+         "frase": "Quando dois corações se querem entender, ainda que falem hebraico, descobrem-se logo um ao outro.",
+         "autor": "- Machado de Assis"
+      },
+      {
+         "id": 5,
+         "frase": "Há pessoas que nunca falam de si próprias, sem que, todavia, falem de outra coisa.",
+         "autor": "- Madame Swetchine"
+      },
+      {
+         "id": 6,
+         "frase": "Preocupa-nos mais que falem de nós, do que a maneira como falam.",
+         "autor": "- Michel de Montaigne"
+      },
+      {
+         "id": 7,
+         "frase": "Por mais que falem bem de nós, não nos ensinam nada de novo.",
+         "autor": "- François La Rochefoucauld"
+      },
+      {
+         "id": 8,
+         "frase": "O mundo não está ameaçado pelas pessoas más, e sim por aquelas que permitem a maldade.",
+         "autor": "- Albert Einstein"
+      },
+      {
+         "id": 9,
+         "frase": "As pessoas entram em nossa vida por acaso, mas não é por acaso que elas permanecem.",
+         "autor": "- Lilian Tonet"
+      },
+      {
+         "id": 10,
+         "frase": "Ainda não vi ninguém que ame a virtude tanto quanto ama a beleza do corpo.",
+         "autor": "- Confúcio"
+      },
+      {
+         "id": 11,
+         "frase": "Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.",
+         "autor": "- Oscar Wilde"
+      },
+      {
+         "id": 12,
+         "frase": "O mundo não está ameaçado pelas pessoas más, e sim por aquelas que permitem a maldade.",
+         "autor": "- Albert Einstein"
+      },
+      {
+         "id": 13,
+         "frase": "É melhor calar-se e deixar que as pessoas pensem que você é um idiota do que falar e acabar com a dúvida.",
+         "autor": "- Maurice Switzer"
+      },
+      {
+         "id": 14,
+         "frase": "A amizade é um meio de nos isolarmos da humanidade cultivando algumas pessoas.",
+         "autor": "- Carlos Drummond de Andrade"
+      },
+      {
+         "id": 15,
+         "frase": "Ninguém é igual a ninguém. Todo o ser humano é um estranho ímpar.",
+         "autor": "- Carlos Drummond de Andrade"
+      },
+      {
+         "id": 16,
+         "frase": "Há pessoas que choram por saber que as rosas têm espinho. Há outras que sorriem por saber que os espinhos têm rosas!",
+         "autor": "- Autor desconhecido"
+      },
+      {
+         "id": 17,
+         "frase": "Não devemos permitir que alguém saia da nossa presença sem se sentir melhor e mais feliz.",
+         "autor": "- Madre Teresa de Calcutá"
+      },
+      {
+         "id": 18,
+         "frase": "As pessoas que falam muito, mentem sempre, porque acabam esgotando seu estoque de verdades.",
+         "autor": "- Millôr Fernandes"
+      },
+      {
+         "id": 19,
+         "frase": "Como são admiráveis as pessoas que nós não conhecemos bem.",
+         "autor": "- Millôr Fernandes"
+      },
+      {
+         "id": 20,
+         "frase": "É difícil viver com as pessoas porque calar é muito difícil.",
+         "autor": "- Friedrich Nietzsche"
+      },
+      {
+         "id": 21,
+         "frase": "Ah! Não me diga que concorda comigo! Quando as pessoas concordam comigo, tenho sempre a impressão de que estou errado.",
+         "autor": "- Oscar Wilde"
+      },
+      {
+         "id": 22,
+         "frase": "Sempre me senti isolado nessas reuniões sociais: o excesso de gente impede de ver as pessoas...",
+         "autor": "- Mario Quintana"
+      },
+      {
+         "id": 23,
+         "frase": "É preciso amar as pessoas como se não houvesse amanhã, porque se você parar para pensar, na verdade não há.",
+         "autor": "- Renato Russo"
+      },
+      {
+         "id": 24,
+         "frase": "As pessoas comuns pensam apenas como passar o tempo. Uma pessoa inteligente tenta usar o tempo.",
+         "autor": "- Arthur Schopenhauer"
+      },
+      {
+         "id": 25,
+         "frase": "Quem julga as pessoas não tem tempo para amá-las.",
+         "autor": "- Madre Teresa de Calcutá"
+      },
+      {
+         "id": 26,
+         "frase": "As únicas pessoas que nunca fracassam são as que nunca tentam.",
+         "autor": "- Ilka Chase"
+      },
+      {
+         "id": 27,
+         "frase": "No adultério há pelo menos três pessoas que se enganam.",
+         "autor": "- Carlos Drummond de Andrade"
+      },
+      {
+         "id": 28,
+         "frase": "As ideias das pessoas são pedaços da sua felicidade.",
+         "autor": "- William Shakespeare"
+      },
+      {
+         "id": 29,
+         "frase": "Nunca devemos julgar as pessoas que amamos. O amor que não é cego, não é amor.",
+         "autor": "- Honoré de Balzac"
+      },
+      {
+         "id": 30,
+         "frase": "Não te esqueças que os estranhos são amigos que ainda não conheces.",
+         "autor": "- Edgar Guest"
+      }
+   ]
+
+}

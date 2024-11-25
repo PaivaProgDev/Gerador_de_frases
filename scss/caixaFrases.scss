@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+@mixin caixa-frases {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 35rem;
+   min-height: 18rem;
+   background-color: $cor-neutra;
+   padding: 1.5rem;
+   box-shadow: 0px 2px 8px -3px rgba(59, 59, 59, 0.322);
+   margin: 3rem 0 4rem 0;
+   border-radius: 3px;
+   border: 1px solid #e2e1de;
+   color: $cor-fonte;
+   font-size: 1rem;
+   font-family: $fonte-secundaria;
+}
+
+.caixa-de-frases {
+   @include caixa-frases;
+
+   div {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .frase {
+      color: $cor-fonte;
+      margin: 1rem 0 2rem 0;
+      font-size: 1rem;
+      border: 0;
+      height: 100%;
+   }
+
+   .autor {
+      width: 100%;
+      font-size: .9rem;
+   }
+}
+
+// FRASES FAVORITAS
+.caixa-de-frases-favoritas {
+   @include caixa-frases;
+}
